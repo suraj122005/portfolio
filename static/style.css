@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, fantasy;
+    margin: 0;
+    padding: 0;
+    background: lch(73.64% 55.75 324.5 / 0.621);
+}
+
+nav {
+    background: #333;
+    color: hsl(192, 55%, 76%);
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    color: #f1f0f3;
+    margin: 0 15px;
+    text-decoration:none;
+}
+
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: auto;
+    background: hwb(320 5% 48%);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
